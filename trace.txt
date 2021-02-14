@@ -1,0 +1,213 @@
+== Info: Rebuilt URL to: http://localhost:8000/
+== Info:   Trying ::1...
+== Info: TCP_NODELAY set
+== Info: Connected to localhost (::1) port 8000 (#0)
+=> Send header, 209 bytes (0xd1)
+0000: POST / HTTP/1.1
+0011: Host: localhost:8000
+0027: User-Agent: curl/7.55.1
+0040: Accept: */*
+004d: Content-Length: 3442
+0063: Expect: 100-continue
+0079: Content-Type: multipart/form-data; boundary=--------------------
+00b9: ----1e66745adcfb41bf
+00cf: 
+<= Recv header, 23 bytes (0x17)
+0000: HTTP/1.1 100 Continue
+=> Send data, 243 bytes (0xf3)
+0000: --------------------------1e66745adcfb41bf
+002c: Content-Disposition: form-data; name="name"
+0059: 
+005b: john
+0061: --------------------------1e66745adcfb41bf
+008d: Content-Disposition: form-data; name="name"; filename="pdftest.p
+00cd: df"
+00d2: Content-Type: application/pdf
+00f1: 
+=> Send data, 3151 bytes (0xc4f)
+0000: %PDF-1.2 
+000b: %....
+0012:  
+0015: 9 0 obj
+001e: <<
+0022: /Length 10 0 R
+0032: /Filter /FlateDecode 
+0049: >>
+004d: stream
+0055: H....J.0... ..{..f.$M..n...-......[&je.......~.$....}.....Ij....
+0095: s.....~.X..-],..$Y....).'N.u..1!...V..?..?..b1Rbb....H.[..TD:#.&
+00d5: ....X....i..$qnf.......]......a..{.......q|J.Ls.].Q..I...j..%..9
+0115: ..`......U.i.te.z.$......OeB.......R..@z.....g....<...
+014d: endstream
+0158: endobj
+0160: 10 0 obj
+016a: 246
+016f: endobj
+0177: 4 0 obj
+0180: <<
+0184: /Type /Page
+0191: /Parent 5 0 R
+01a0: /Resources <<
+01af: /Font <<
+01b9: /F0 6 0 R 
+01c5: /F1 7 0 R 
+01d1: >>
+01d5: /ProcSet 2 0 R
+01e5: >>
+01e9: /Contents 9 0 R
+01fa: >>
+01fe: endobj
+0206: 6 0 obj
+020f: <<
+0213: /Type /Font
+0220: /Subtype /TrueType
+0234: /Name /F0
+023f: /BaseFont /Arial
+0251: /Encoding /WinAnsiEncoding
+026d: >>
+0271: endobj
+0279: 7 0 obj
+0282: <<
+0286: /Type /Font
+0293: /Subtype /TrueType
+02a7: /Name /F1
+02b2: /BaseFont /BookAntiqua,Bold
+02cf: /FirstChar 31
+02de: /LastChar 255
+02ed: /Widths [ 750 250 278 402 606 500 889 833 227 333 333 444 606 25
+032d: 0 333 250 
+0339: 296 500 500 500 500 500 500 500 500 500 500 250 250 606 606 606 
+037b: 444 747 778 667 722 833 611 556 833 833 389 389 778 611 1000 833
+03bb:  
+03be: 833 611 833 722 611 667 778 778 1000 667 667 667 333 606 333 606
+03fe:  
+0401: 500 333 500 611 444 611 500 389 556 611 333 333 611 333 889 611 
+0443: 556 611 611 389 444 333 611 556 833 500 556 500 310 606 310 606 
+0485: 750 500 750 333 500 500 1000 500 500 333 1000 611 389 1000 750 7
+04c5: 50 
+04ca: 750 750 278 278 500 500 606 500 1000 333 998 444 389 833 750 750
+050a:  
+050d: 667 250 278 500 500 606 500 606 500 333 747 438 500 606 333 747 
+054f: 500 400 549 361 361 333 576 641 250 333 361 488 500 889 890 889 
+0591: 444 778 778 778 778 778 778 1000 722 611 611 611 611 389 389 389
+05d1:  
+05d4: 389 833 833 833 833 833 833 833 606 833 778 778 778 778 667 611 
+0616: 611 500 500 500 500 500 500 778 444 500 500 500 500 333 333 333 
+0658: 333 556 611 556 556 556 556 556 549 556 611 611 611 611 556 611 
+069a: 556 ]
+06a1: /Encoding /WinAnsiEncoding
+06bd: /FontDescriptor 8 0 R
+06d4: >>
+06d8: endobj
+06e0: 8 0 obj
+06e9: <<
+06ed: /Type /FontDescriptor
+0704: /FontName /BookAntiqua,Bold
+0721: /Flags 16418
+072f: /FontBBox [ -250 -260 1236 930 ]
+0751: /MissingWidth 750
+0764: /StemV 146
+0770: /StemH 146
+077c: /ItalicAngle 0
+078c: /CapHeight 930
+079c: /XHeight 651
+07aa: /Ascent 930
+07b7: /Descent 260
+07c5: /Leading 210
+07d3: /MaxWidth 1030
+07e3: /AvgWidth 460
+07f2: >>
+07f6: endobj
+07fe: 2 0 obj
+0807: [ /PDF /Text  ]
+0818: endobj
+0820: 5 0 obj
+0829: <<
+082d: /Kids [4 0 R ]
+083d: /Count 1
+0847: /Type /Pages
+0855: /MediaBox [ 0 0 612 792 ]
+0870: >>
+0874: endobj
+087c: 1 0 obj
+0885: <<
+0889: /Creator (1725.fm)
+089d: /CreationDate (1-Jan-3 18:15PM)
+08be: /Title (1725.PDF)
+08d1: /Author (Unknown)
+08e4: /Producer (Acrobat PDFWriter 3.02 for Windows)
+0914: /Keywords ()
+0922: /Subject ()
+092f: >>
+0933: endobj
+093b: 3 0 obj
+0944: <<
+0948: /Pages 5 0 R
+0956: /Type /Catalog
+0966: /DefaultGray 11 0 R
+097b: /DefaultRGB  12 0 R
+0990: >>
+0994: endobj
+099c: 11 0 obj
+09a6: [/CalGray
+09b1: <<
+09b5: /WhitePoint [0.9505 1 1.0891 ]
+09d5: /Gamma 0.2468 
+09e5: >>
+09e9: ]
+09ec: endobj
+09f4: 12 0 obj
+09fe: [/CalRGB
+0a08: <<
+0a0c: /WhitePoint [0.9505 1 1.0891 ]
+0a2c: /Gamma [0.2468 0.2468 0.2468 ]
+0a4c: /Matrix [0.4361 0.2225 0.0139 0.3851 0.7169 0.0971 0.1431 0.0606
+0a8c:  0.7141 ]
+0a97: >>
+0a9b: ]
+0a9e: endobj
+0aa6: xref
+0aac: 0 13
+0ab2: 0000000000 65535 f
+0ac6: 0000002172 00000 n
+0ada: 0000002046 00000 n
+0aee: 0000002363 00000 n
+0b02: 0000000375 00000 n
+0b16: 0000002080 00000 n
+0b2a: 0000000518 00000 n
+0b3e: 0000000633 00000 n
+0b52: 0000001760 00000 n
+0b66: 0000000021 00000 n
+0b7a: 0000000352 00000 n
+0b8e: 0000002460 00000 n
+0ba2: 0000002548 00000 n
+0bb6: trailer
+0bbf: <<
+0bc3: /Size 13
+0bcd: /Root 3 0 R
+0bda: /Info 1 0 R
+0be7: /ID [<47149510433dd4882f05f8c124223734><47149510433dd4882f05f8c1
+0c27: 24223734>]
+0c33: >>
+0c37: startxref
+0c42: 2726
+0c48: %%EOF
+=> Send data, 48 bytes (0x30)
+0000: 
+0002: --------------------------1e66745adcfb41bf--
+<= Recv header, 24 bytes (0x18)
+0000: HTTP/1.1 303 See Other
+<= Recv header, 19 bytes (0x13)
+0000: Connection: close
+<= Recv header, 13 bytes (0xd)
+0000: Location: /
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 14 Feb 2021 11:59:01 GMT
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 5 bytes (0x5)
+0000: 0
+0003: 
+== Info: Closing connection 0
