@@ -7,23 +7,38 @@
 0011: Host: localhost:8000
 0027: User-Agent: curl/7.55.1
 0040: Accept: */*
-004d: Content-Length: 3442
+004d: Content-Length: 3915
 0063: Expect: 100-continue
 0079: Content-Type: multipart/form-data; boundary=--------------------
-00b9: ----1e66745adcfb41bf
+00b9: ----3dd8c996f5b2e5fb
 00cf: 
 <= Recv header, 23 bytes (0x17)
 0000: HTTP/1.1 100 Continue
-=> Send data, 243 bytes (0xf3)
-0000: --------------------------1e66745adcfb41bf
-002c: Content-Disposition: form-data; name="name"
-0059: 
-005b: john
-0061: --------------------------1e66745adcfb41bf
-008d: Content-Disposition: form-data; name="name"; filename="pdftest.p
-00cd: df"
-00d2: Content-Type: application/pdf
-00f1: 
+=> Send data, 147 bytes (0x93)
+0000: --------------------------3dd8c996f5b2e5fb
+002c: Content-Disposition: form-data; name="name"; filename="sample.js
+006c: on"
+0071: Content-Type: application/json
+0091: 
+=> Send data, 421 bytes (0x1a5)
+0000: {
+0003:     "properties": [
+0018:         {"name":"displayname","value":"pdftest.pdf"},
+004f:         {"name":"xsapobject", "value":"ZBUS_PG5SM"},
+0085:         {"name":"xsapdocumenttype", "value":"Z_MCF_03"},
+00bf:         {"name":"xsapobjectid", "value":"110000675705"},..
+00fb:         {"name":"xsapclientname", "value":"101"},
+012e:         {"name":"xsapsystemname", "value":"ICP"},
+0161:         {"name":"xsapcontentrepositoryname", "value":"L6"}
+019d:     ]
+01a4: }
+=> Send data, 148 bytes (0x94)
+0000: 
+0002: --------------------------3dd8c996f5b2e5fb
+002e: Content-Disposition: form-data; name="name"; filename="pdftest.p
+006e: df"
+0073: Content-Type: application/pdf
+0092: 
 => Send data, 3151 bytes (0xc4f)
 0000: %PDF-1.2 
 000b: %....
@@ -194,7 +209,7 @@
 0c48: %%EOF
 => Send data, 48 bytes (0x30)
 0000: 
-0002: --------------------------1e66745adcfb41bf--
+0002: --------------------------3dd8c996f5b2e5fb--
 <= Recv header, 24 bytes (0x18)
 0000: HTTP/1.1 303 See Other
 <= Recv header, 19 bytes (0x13)
@@ -202,7 +217,7 @@
 <= Recv header, 13 bytes (0xd)
 0000: Location: /
 <= Recv header, 37 bytes (0x25)
-0000: Date: Sun, 14 Feb 2021 11:59:01 GMT
+0000: Date: Thu, 11 Mar 2021 09:44:25 GMT
 <= Recv header, 28 bytes (0x1c)
 0000: Transfer-Encoding: chunked
 <= Recv header, 2 bytes (0x2)

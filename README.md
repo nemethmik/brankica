@@ -2,6 +2,7 @@
 The project is to experiment how the multipart/form-data and multipart/mixed HTTP post bodies are to be handled and used.
 
 [Busboy](https://www.npmjs.com/package/busboy) cannot handle multipart/mixed content, unfortunately, only multipart/form-data.
+In this new version multipart/form-data is used.
 
 The [How to process POST data in Node.js?](https://stackoverflow.com/questions/4295782/how-to-process-post-data-in-node-js),
 [CURL manual for -F parameter](https://curl.se/docs/manpage.html),

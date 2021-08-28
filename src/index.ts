@@ -20,6 +20,7 @@ http.createServer(function(req, res) {
       console.log('File [' + fieldname + ']: filename: ' + filename + ', encoding: ' + encoding + ', mimetype: ' + mimetype);
       file.on('data', function(data) {
         console.log('File [' + fieldname + '] got ' + data.length + ' bytes');
+        if(mimetype == "application/json") console.log(inspect(data))
       });
       file.on('end', function() {
         console.log('File [' + fieldname + '] Finished');

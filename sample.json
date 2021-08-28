@@ -1,7 +1,11 @@
 {
     "properties": [
-        {
-            "name":"displayname","value":"A very simple PDF"
-        }
+        {"name":"displayname","value":"pdftest.pdf"},
+        {"name":"xsapobject", "value":"ZBUS_PG5SM"},
+        {"name":"xsapdocumenttype", "value":"Z_MCF_03"},
+        {"name":"xsapobjectid", "value":"110000675705"}, 
+        {"name":"xsapclientname", "value":"101"},
+        {"name":"xsapsystemname", "value":"ICP"},
+        {"name":"xsapcontentrepositoryname", "value":"L6"}
     ]
 }
